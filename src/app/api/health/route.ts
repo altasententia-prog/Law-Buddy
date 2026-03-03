@@ -9,7 +9,7 @@ export async function GET() {
     return NextResponse.json({ ok: true });
   } catch (e: any) {
     return NextResponse.json(
-      { ok: false, error: e.message },
+      { ok: false, error: String(e?.message ?? e) },
       { status: 500 }
     );
   }
