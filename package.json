@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "postinstall": "echo postinstall-skip",
+    "postinstall": "echo skip-postinstall",
 "prisma:generate": "prisma generate",
 "lint": "eslint ."
   },
