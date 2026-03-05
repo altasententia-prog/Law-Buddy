@@ -6,8 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "postinstall": "prisma generate --no-engine",
-    "lint": "eslint ."
+    "postinstall": "echo postinstall-skip",
+"prisma:generate": "prisma generate",
+"lint": "eslint ."
   },
   "dependencies": {
     "@prisma/client": "^7.4.2",
